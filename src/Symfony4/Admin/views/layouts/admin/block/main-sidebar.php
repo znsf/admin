@@ -8,7 +8,7 @@
  */
 
 use App\User\Domain\Entities\IdentityEntity;
-use ZnLib\Web\Helpers\Url;
+use ZnLib\Web\Components\Url\Helpers\Url;
 use ZnLib\Web\Components\View\Libs\View;
 use ZnLib\Web\Components\Widget\Widgets\AdminLte3\Sidebar\SidebarWidget;
 

@@ -1,6 +1,6 @@
 <?php
 
-use ZnLib\Web\Helpers\Url;
+use ZnLib\Web\Components\Url\Helpers\Url;
 use ZnUser\Rbac\Domain\Enums\Rbac\ExtraPermissionEnum;
 
 return [
