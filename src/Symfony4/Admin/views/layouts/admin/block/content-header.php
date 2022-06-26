@@ -7,8 +7,8 @@
  */
 
 use Illuminate\Container\Container;
-use ZnLib\Web\View\View;
-use ZnLib\Web\Widgets\BreadcrumbWidget;
+use ZnLib\Web\Components\View\Libs\View;
+use ZnLib\Web\Components\Widget\Widgets\BreadcrumbWidget;
 
 ?>
 

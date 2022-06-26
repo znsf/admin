@@ -29,7 +29,7 @@ AppAsset::register($this);
     </div>
     <div class="card">
         <div class="card-body login-card-body">
-            <?= \ZnLib\Web\Widgets\Alert\AlertWidget::widget() ?>
+            <?= \ZnLib\Web\Components\Widget\Widgets\Alert\AlertWidget::widget() ?>
             <?= $content ?>
         </div>
     </div>

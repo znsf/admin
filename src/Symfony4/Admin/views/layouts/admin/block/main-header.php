@@ -8,8 +8,8 @@
 
 use ZnBundle\Language\Symfony4\Widgets\Language\LanguageWidget;
 use ZnLib\Web\Helpers\Url;
-use ZnLib\Web\View\View;
-use ZnLib\Web\Widgets\UserNavbarMenu\UserNavbarMenuWidget;
+use ZnLib\Web\Components\View\Libs\View;
+use ZnLib\Web\Components\Widget\Widgets\UserNavbarMenu\UserNavbarMenuWidget;
 use ZnUser\Notify\Yii2\Widgets\NotifyMenuWidget;
 
 //use Packages\User\Yii2\Widgets\UserNavbarMenu\UserNavbarMenuWidget;

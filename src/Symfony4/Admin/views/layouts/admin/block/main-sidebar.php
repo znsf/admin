@@ -9,8 +9,8 @@
 
 use App\User\Domain\Entities\IdentityEntity;
 use ZnLib\Web\Helpers\Url;
-use ZnLib\Web\View\View;
-use ZnLib\Web\Widgets\AdminLte3\Sidebar\SidebarWidget;
+use ZnLib\Web\Components\View\Libs\View;
+use ZnLib\Web\Components\Widget\Widgets\AdminLte3\Sidebar\SidebarWidget;
 
 ?>
 <!-- Brand Logo -->

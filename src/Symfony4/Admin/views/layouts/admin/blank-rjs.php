@@ -6,12 +6,12 @@
  * @var string $content
  */
 
-use ZnLib\Web\Symfony4\MicroApp\Assets\AdminAppAsset;
-use ZnLib\Web\Symfony4\MicroApp\Widgets\Layout\ScriptWidget;
-use ZnLib\Web\Symfony4\MicroApp\Widgets\Layout\StyleWidget;
-use ZnLib\Web\View\View;
-use ZnLib\Web\Widgets\Toastr\ToastrWidget;
-use ZnLib\Web\Symfony4\MicroApp\Assets\AppAsset;
+use ZnLib\Web\Components\Asset\Assets\AdminAppAsset;
+use ZnLib\Web\Components\Widget\Widgets\Script\ScriptWidget;
+use ZnLib\Web\Components\Widget\Widgets\Style\StyleWidget;
+use ZnLib\Web\Components\View\Libs\View;
+use ZnLib\Web\Components\Widget\Widgets\Toastr\ToastrWidget;
+use ZnLib\Web\Components\Asset\Assets\AppAsset;
 
 (new AdminAppAsset())->register($this);
 
