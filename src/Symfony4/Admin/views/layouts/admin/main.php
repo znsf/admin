@@ -52,7 +52,7 @@ use ZnLib\Web\Components\Widget\Widgets\Toastr\ToastrWidget;
         </div>
         <div class="content">
             <div class="container-fluid">
-                <?= \ZnLib\Web\Components\Widget\Widgets\Alert\AlertWidget::widget() ?>
+                <?= \ZnLib\Web\Components\TwBootstrap\Widgets\Alert\AlertWidget::widget() ?>
                 <?= $content ?>
             </div>
         </div>
